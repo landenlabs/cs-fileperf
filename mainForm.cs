@@ -368,20 +368,6 @@ namespace FilePerf
             rwStats.numTests = this.rwListView.Items.Count;
             rwStats.pTestValues = new double[this.rwListView.Items.Count * MRwStats.eTestWidth];
                 
-            for (int testIdx = 0; testIdx < this.rwListView.Items.Count; testIdx++)
-            {
-                ListViewItem item = this.rwListView.Items[testIdx];
-
-                for (int subidx = 0; subidx < item.SubItems.Count; subidx++)
-                {
-					string v = item.SubItems[subidx].Text;
-                    double d = (item.SubItems[subidx].Tag != null) ?
-                        (int)item.SubItems[subidx].Tag :
-                        double.Parse(item.SubItems[subidx].Text);
-
-                    rwStats.pTestValues[testIdx * MRwStats.eTestWidth + subidx] = d;
-                }
-            }
 
             // wFilePerfCmd.RwSetStats(rwStats);
             rwStats.drvList = string.Empty;
@@ -394,6 +380,20 @@ namespace FilePerf
 
             if (rwStats.drvList.Length > 0)
             {
+                for (int testIdx = 0; testIdx < this.rwListView.Items.Count; testIdx++) {
+                    ListViewItem item = this.rwListView.Items[testIdx];
+
+                    for (int subidx = 0; subidx < item.SubItems.Count; subidx++) {
+                        string v = item.SubItems[subidx].Text;
+                        double d = (item.SubItems[subidx].Tag != null) ?
+                            (int)item.SubItems[subidx].Tag :
+                            double.Parse(item.SubItems[subidx].Text);
+
+                        rwStats.pTestValues[testIdx * MRwStats.eTestWidth + subidx] = d;
+                    }
+                }
+
+
                 wFilePerfCmd.RwStartTest(rwStats);
 
                 this.rwListView.Items.Clear();

@@ -39,10 +39,10 @@
             this.rwGraph = new FilePerf.BarGraph();
             this.rwTabDetail = new System.Windows.Forms.TabPage();
             this.rwListView = new System.Windows.Forms.ListView();
-            this.colDrive = new System.Windows.Forms.ColumnHeader();
-            this.colRecSize = new System.Windows.Forms.ColumnHeader();
-            this.colReadSpd = new System.Windows.Forms.ColumnHeader();
-            this.colWrtSpd = new System.Windows.Forms.ColumnHeader();
+            this.colDrive = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colRecSize = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colReadSpd = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colWrtSpd = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.settingTab = new System.Windows.Forms.TabPage();
             this.graphPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.label7 = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@
             this.rwDriveGrp = new System.Windows.Forms.GroupBox();
             this.addBtn = new System.Windows.Forms.Button();
             this.rwDriveList = new System.Windows.Forms.ListView();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.rwStopBtn = new System.Windows.Forms.Button();
             this.rwPauseBtn = new System.Windows.Forms.Button();
             this.rwStartBtn = new System.Windows.Forms.Button();
@@ -111,9 +111,9 @@
             // 
             // mainTab
             // 
-            this.mainTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.mainTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.mainTab.Controls.Add(this.ReadWriteTab);
             this.mainTab.Controls.Add(this.DirScanTab);
             this.mainTab.Location = new System.Drawing.Point(26, 78);
@@ -150,9 +150,9 @@
             // 
             // rwTab
             // 
-            this.rwTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwTab.Controls.Add(this.rwTabGraph);
             this.rwTab.Controls.Add(this.rwTabDetail);
             this.rwTab.Controls.Add(this.settingTab);
@@ -278,8 +278,8 @@
             // 
             // rwStatus
             // 
-            this.rwStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwStatus.BackColor = System.Drawing.Color.LightGray;
             this.rwStatus.Location = new System.Drawing.Point(114, 262);
             this.rwStatus.Name = "rwStatus";
@@ -312,8 +312,8 @@
             // 
             // rwSubTestProgressBar
             // 
-            this.rwSubTestProgressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwSubTestProgressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwSubTestProgressBar.Location = new System.Drawing.Point(114, 238);
             this.rwSubTestProgressBar.Name = "rwSubTestProgressBar";
             this.rwSubTestProgressBar.Size = new System.Drawing.Size(538, 18);
@@ -323,8 +323,8 @@
             // 
             // rwTestProgressBar
             // 
-            this.rwTestProgressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwTestProgressBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwTestProgressBar.Location = new System.Drawing.Point(114, 214);
             this.rwTestProgressBar.Name = "rwTestProgressBar";
             this.rwTestProgressBar.Size = new System.Drawing.Size(538, 18);
@@ -334,8 +334,8 @@
             // 
             // rwDriveGrp
             // 
-            this.rwDriveGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.rwDriveGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.rwDriveGrp.Controls.Add(this.addBtn);
             this.rwDriveGrp.Controls.Add(this.rwDriveList);
             this.rwDriveGrp.ForeColor = System.Drawing.Color.White;
@@ -363,9 +363,9 @@
             // rwDriveList
             // 
             this.rwDriveList.AllowDrop = true;
-            this.rwDriveList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwDriveList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwDriveList.CheckBoxes = true;
             this.rwDriveList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1});
@@ -425,8 +425,8 @@
             // 
             // sizeGrp
             // 
-            this.sizeGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.sizeGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.sizeGrp.Controls.Add(this.rwFSizeScroll);
             this.sizeGrp.Controls.Add(this.label4);
             this.sizeGrp.Controls.Add(this.rwFSizeBox);
@@ -441,8 +441,8 @@
             // 
             // rwFSizeScroll
             // 
-            this.rwFSizeScroll.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwFSizeScroll.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwFSizeScroll.LargeChange = 1;
             this.rwFSizeScroll.Location = new System.Drawing.Point(173, 13);
             this.rwFSizeScroll.Name = "rwFSizeScroll";
@@ -472,8 +472,8 @@
             // 
             // maxGrp
             // 
-            this.maxGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.maxGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.maxGrp.Controls.Add(this.rwMaxScroller);
             this.maxGrp.Controls.Add(this.label2);
             this.maxGrp.Controls.Add(this.rwMaxBox);
@@ -487,8 +487,8 @@
             // 
             // rwMaxScroller
             // 
-            this.rwMaxScroller.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwMaxScroller.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwMaxScroller.LargeChange = 1;
             this.rwMaxScroller.Location = new System.Drawing.Point(173, 13);
             this.rwMaxScroller.Name = "rwMaxScroller";
@@ -517,8 +517,8 @@
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(30, 67);
             this.label3.Name = "label3";
@@ -528,8 +528,8 @@
             // 
             // rwTitle
             // 
-            this.rwTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwTitle.BackColor = System.Drawing.Color.Gainsboro;
             this.rwTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rwTitle.Location = new System.Drawing.Point(23, 27);
@@ -541,8 +541,8 @@
             // 
             // minGrp
             // 
-            this.minGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.minGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.minGrp.Controls.Add(this.rwMinScroller);
             this.minGrp.Controls.Add(this.label1);
             this.minGrp.Controls.Add(this.rwMinBox);
@@ -557,8 +557,8 @@
             // 
             // rwMinScroller
             // 
-            this.rwMinScroller.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwMinScroller.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwMinScroller.LargeChange = 1;
             this.rwMinScroller.Location = new System.Drawing.Point(173, 13);
             this.rwMinScroller.Name = "rwMinScroller";
@@ -653,8 +653,8 @@
             // 
             // dirScanTitle
             // 
-            this.dirScanTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.dirScanTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dirScanTitle.BackColor = System.Drawing.Color.Gainsboro;
             this.dirScanTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dirScanTitle.Location = new System.Drawing.Point(17, 23);
@@ -739,8 +739,8 @@
             // 
             // rwTableBtns
             // 
-            this.rwTableBtns.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rwTableBtns.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rwTableBtns.ColumnCount = 3;
             this.rwTableBtns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
             this.rwTableBtns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
